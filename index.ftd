@@ -238,10 +238,10 @@ optional string website:
 optional string message:
 
 -- ftd.column:
+width: fill-container
 background.image if { ftd.dark-mode }: $bg-image-dark
 background.image if { !ftd.dark-mode }: $bg-image-light
-
--- ftd.desktop:
+overflow: auto
 
 -- ftd.column:
 width.fixed.px: 500
@@ -328,105 +328,6 @@ text-align: center
 -- end: ftd.column
 
 -- end: ftd.column
-
--- end: ftd.desktop
-
--- ftd.mobile:
-
--- ftd.column:
-width: fill-container
-height.fixed.px: 470
-background.solid: $card-background-color
-spacing: space-around
-
--- ftd.image:
-if: { front.qr-code != NULL }
-src: $front.qr-code
-width.fixed.px: 64
-height.fixed.px: 64
-anchor: parent
-right.px: 12
-top.px: 12
-z-index: 2
-
--- ftd.column:
-width: fill-container
-align-content: center
-padding-vertical.px: 24
-
--- ftd.image: $front.logo
-if: { front.logo != NULL }
-width.fixed.px: 250
-
--- end: ftd.column
-
--- ftd.column:
-width: fill-container
-height: fill-container
-align-content: center
-border-top-width.px: 2
-border-color: $inherited.colors.border-strong
-padding-horizontal.px: 24
-spacing.fixed.px: 8
-
--- ftd.text: $front.name
-color: $inherited.colors.text-strong
-role: $inherited.types.heading-small
-
--- ftd.text: $front.title
-if: { front.title != NULL }
-color: $inherited.colors.text
-role: $inherited.types.copy-regular
-
--- ftd.text: $front.phone-no
-if: { front.phone-no != NULL }
-margin-top.px: 40
-color: $inherited.colors.text
-role: $inherited.types.copy-regular
-
--- ftd.text: $front.email
-if: { front.email != NULL }
-margin-top.px if { front.phone-no == NULL }: 50
-color: $inherited.colors.text
-role: $inherited.types.fine-print
-
--- ftd.column:
-width: fill-container
-border-top-width.px: 1
-border-color: $inherited.colors.border-strong
-align-content: center
-padding-top.px: 8
-margin-top.px: 8
-spacing.fixed.px: 8
-
--- ftd.text: $front.company-name
-if: { front.address != NULL }
-margin-top.px if { front.phone-no == NULL && front.email == NULL }: 50
-color: $inherited.colors.text
-role: $inherited.types.button-medium
-text-align: center
-
--- ftd.text: $front.address
-if: { front.address != NULL }
-margin-top.px if { front.phone-no == NULL && front.email == NULL }: 50
-color: $inherited.colors.text
-role: $inherited.types.fine-print
-text-align: center
-
--- ftd.text: $front.website
-if: { front.address != NULL }
-margin-top.px if { front.phone-no == NULL && front.email == NULL }: 50
-color: $inherited.colors.text
-role: $inherited.types.fine-print
-text-align: center
-
--- end: ftd.column
-
--- end: ftd.column
-
--- end: ftd.column
-
--- end: ftd.mobile
 
 -- end: ftd.column
 
