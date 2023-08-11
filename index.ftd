@@ -1,0 +1,15 @@
+-- import: fastn-community.github.io/business-card
+
+-- ds.page: My Business Card
+
+-- business-card.details: John Doe
+company-name: John Doe Pvt. Ltd.
+title: Chief Executive Officer
+phone-no: +91 12345 99999
+email: john@johndoe.com
+address: 123, Block No. A-123, Times Sqaure, Bangalore - 123456
+logo: $assets.files.assets.ipsum-logo.svg
+company-slogan: If can type you can code
+website: www.johndoe.com
+
+-- end: ds.page
