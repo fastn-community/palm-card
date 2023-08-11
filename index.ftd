@@ -52,7 +52,7 @@ Simply copy and paste below code inside your `.ftd` file and deploy.
 
 -- cb.code: Example usage
 
-\-- palm-card.details: Arita Jaiswal
+\-- palm-card.details: Arpita Jaiswal
 company-name: FifthTry Pvt.Ltd.
 title: Sr. Software Developer
 avatar: $assets.files.assets.arpita.png
