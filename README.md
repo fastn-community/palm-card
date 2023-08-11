@@ -1,6 +1,6 @@
 # My Fastn Site
 
-<user_name>.github.io/<repo_name> is created using [doc-site](https://fastn-community.github.io/doc-site/).
+fastn-community.github.io/palm-card is created using [doc-site](https://fastn-community.github.io/doc-site/).
 
 ## Get Rolling
 
