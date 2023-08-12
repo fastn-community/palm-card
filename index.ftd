@@ -44,7 +44,7 @@ Import `palm-card` into your `.ftd` file
 
 -- cb.code:
 
-\-- fastn.dependency: fastn-community.github.io/palm-card
+\-- import: fastn-community.github.io/palm-card
 
 -- site-doc.markdown:
 
