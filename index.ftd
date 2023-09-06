@@ -19,11 +19,11 @@ Check out [`fastn`](https://fastn.com/).
 colors: $cs.main
 types: $lobster-typography.types
 
--- details: Arpita Jaiswal
+-- details: Harsh Singh
 company-name: FifthTry Pvt.Ltd.
-title: Sr. Software Developer
-avatar: $assets.files.assets.arpita.png
-message: Happy Birthday to you Arpita!
+title: Intern
+avatar: $assets.files.assets.harsh.jpg
+message: Happy Birthday to you Harsh!
 website: www.fifthtry.com
 address: A-2101, House of Hiranandani, Yellanhalli, Bangalore
 
@@ -52,13 +52,13 @@ Simply copy and paste below code inside your `.ftd` file and deploy.
 
 -- cb.code: Example usage
 
-\-- palm-card.details: Arpita Jaiswal
+\-- palm-card.details: Harsh Singh
 company-name: FifthTry Pvt.Ltd.
-title: Sr. Software Developer
-avatar: $assets.files.assets.arpita.png
-message: Happy Birthday to you Arpita!
-website: www.johndoe.com
-address: 123, Block No. A-123, Times Square, Bangalore - 123456
+title: Intern
+avatar: $assets.files.assets.harsh.jpg
+message: Happy Birthday to you Harsh!
+website: www.fifthtry.com
+address: A-2101, House of Hiranandani, Yellanhalli, Bangalore
 
 -- end: site-doc.doc-home
 
