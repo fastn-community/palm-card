@@ -52,11 +52,11 @@ Simply copy and paste below code inside your `.ftd` file and deploy.
 
 -- cb.code: Example usage
 
-\-- palm-card.details: Harsh Singh
+\-- palm-card.details: Nishant Jain
 company-name: FifthTry Pvt.Ltd.
-title: Intern
-avatar: $assets.files.assets.harsh.jpg
-message: Happy Birthday to you Harsh!
+title: DevRel - Intern
+avatar: $assets.files.assets.nishant.jpg
+message: Happy Birthday to you Nishant!
 website: www.fifthtry.com
 address: A-2101, House of Hiranandani, Yellanhalli, Bangalore
 
