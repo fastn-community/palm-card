@@ -19,11 +19,11 @@ Check out [`fastn`](https://fastn.com/).
 colors: $cs.main
 types: $lobster-typography.types
 
--- details: Harsh Singh
+-- details: Nishant Jain
 company-name: FifthTry Pvt.Ltd.
-title: Intern
-avatar: $assets.files.assets.harsh.jpg
-message: Happy Birthday to you Harsh!
+title: DevRel - Intern
+avatar: $assets.files.assets.nishant.jpg
+message: Happy Birthday to you Nishant!
 website: www.fifthtry.com
 address: A-2101, House of Hiranandani, Yellanhalli, Bangalore
 
@@ -239,8 +239,8 @@ optional string message:
 
 -- ftd.column:
 width: fill-container
-background.image if { ftd.dark-mode }: $bg-image-dark
-background.image if { !ftd.dark-mode }: $bg-image-light
+background.image if { ftd.dark-mode }: $bg-image-light
+background.image if { !ftd.dark-mode }: $bg-image-dark
 overflow: auto
 
 -- ftd.column:
